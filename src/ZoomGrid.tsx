@@ -344,7 +344,7 @@ export function ZoomGrid<T>({
                     isInteractive={isActive && !isPinching}
                     isPinching={isPinchingRef}
                     disableAutoScroll={!isActive}
-                    onEndReached={() => {
+                    onEndReached={(e) => {
                         if (isActive) {
                             onEndReached?.(e);
                         }
