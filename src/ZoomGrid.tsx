@@ -344,8 +344,16 @@ export function ZoomGrid<T>({
                     isInteractive={isActive && !isPinching}
                     isPinching={isPinchingRef}
                     disableAutoScroll={!isActive}
-                    onEndReached={isActive ? onEndReached : undefined}
-                    onScroll={isActive ? (e: any) => activeScrollOffset.value = e.nativeEvent.contentOffset.y : undefined}
+                    onEndReached={() => {
+                        if (isActive) {
+                            onEndReached?.(e);
+                        }
+                    }}
+                    onScroll={(e: any) => {
+                        if (isActive) {
+                            activeScrollOffset.value = e.nativeEvent.contentOffset.y;
+                        }
+                    }}
                     renderItem={({ item, index, size, isTarget }: { item: T; index: number; size: number; isTarget: boolean }) => renderItem({
                         item,
                         index,

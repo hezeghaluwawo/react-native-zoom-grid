@@ -70,6 +70,7 @@ export const ZoomGridList = forwardRef(({
                 onStartReachedThreshold: 0.5,
                 contentContainerStyle: contentContainerStyle
             } : {
+                maintainVisibleContentPosition: undefined,
                 onEndReached: isInteractive ? onEndReached : undefined,
                 onEndReachedThreshold: 0.5,
                 contentContainerStyle: contentContainerStyle
