@@ -1,13 +1,13 @@
 import React, { forwardRef } from 'react';
 import { View, Dimensions } from 'react-native';
 import Animated from 'react-native-reanimated';
-import { FlashList, FlashListProps } from '@shopify/flash-list';
+import { LegendList, LegendListProps } from '@legendapp/list';
 
 const { width } = Dimensions.get('window');
 
-const AnimatedFlashList = Animated.createAnimatedComponent(FlashList) as unknown as React.ComponentType<any>;
+const AnimatedLegendList = Animated.createAnimatedComponent(LegendList) as unknown as React.ComponentType<any>;
 
-export interface ZoomGridListProps<T> extends Omit<FlashListProps<T>, 'renderItem'> {
+export interface ZoomGridListProps<T> extends Omit<LegendListProps<T>, 'renderItem'> {
     numColumns: number;
     isPinching?: React.MutableRefObject<boolean>;
     targetIndex: number;
@@ -33,7 +33,7 @@ export const ZoomGridList = forwardRef(({
     ...rest
 }: ZoomGridListProps<any>, ref: any) => {
     return (
-        <AnimatedFlashList
+        <AnimatedLegendList
             ref={ref}
             key={`grid-${numColumns}-${invert}`}
             data={data}

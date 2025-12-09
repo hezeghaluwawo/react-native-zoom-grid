@@ -62,7 +62,7 @@ const MyPhotoGrid = ({ photos }) => {
 
 ### `<ZoomGrid />`
 
-The main component. It extends most `FlashList` props (except `renderItem` which has a different signature).
+The main component. It extends most `LegendList` props (except `renderItem` which has a different signature).
 
 #### Props
 
@@ -77,7 +77,7 @@ The main component. It extends most `FlashList` props (except `renderItem` which
 | `contentInsets` | `{ top?: number, bottom?: number }` | - | Insets for the content container. |
 | `invert` | `boolean` | `true` | Inverts the list direction (and data order internally). Useful for chat or timeline views. |
 | `gridStyle` | `ViewStyle` | - | Style for the grid container. |
-| ...FlashListProps | | | Supports most other `FlashList` props like `onEndReached`, `estimatedItemSize`, etc. |
+| ...LegendListProps | | | Supports most other `LegendList` props like `onEndReached`, `estimatedItemSize`, etc. |
 
 #### `renderItem` Signature
 

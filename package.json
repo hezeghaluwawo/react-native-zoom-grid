@@ -50,14 +50,14 @@
         ]
     },
     "peerDependencies": {
-        "@shopify/flash-list": "*",
+        "@legendapp/list": "*",
         "react": "*",
         "react-native": "*",
         "react-native-gesture-handler": "*",
         "react-native-reanimated": "*"
     },
     "devDependencies": {
-        "@shopify/flash-list": "^2.2.0",
+        "@legendapp/list": "^2.0.16",
         "@types/react-native": "^0.72.8",
         "react-native": "^0.82.1",
         "react-native-gesture-handler": "^2.29.1",

@@ -1,6 +1,6 @@
 import React from 'react';
-import { FlashListProps } from '@shopify/flash-list';
-export interface ZoomGridListProps<T> extends Omit<FlashListProps<T>, 'renderItem'> {
+import { LegendListProps } from '@legendapp/list';
+export interface ZoomGridListProps<T> extends Omit<LegendListProps<T>, 'renderItem'> {
     numColumns: number;
     isPinching?: React.MutableRefObject<boolean>;
     targetIndex: number;

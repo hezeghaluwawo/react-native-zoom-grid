@@ -11,7 +11,7 @@ import Animated, {
 import { GestureDetector, Gesture, GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ZoomGridList } from './ZoomGridList';
-import { FlashListProps } from '@shopify/flash-list';
+import { LegendListProps } from '@legendapp/list';
 
 const { width, height } = Dimensions.get('window');
 const DEFAULT_ZOOM_LEVELS = [5, 3, 1];
@@ -19,7 +19,7 @@ const ZOOM_COLORS = ['#00FF00', '#0000FF', '#FF0000', '#00FFFF', '#FF00FF'];
 
 export const DEBUG = false;
 
-export interface ZoomGridProps<T> extends Omit<FlashListProps<T>, 'renderItem'> {
+export interface ZoomGridProps<T> extends Omit<LegendListProps<T>, 'renderItem'> {
     zoomLevels?: number[];
     initialNumColumns?: number;
     renderItem: (props: { item: T; index: number; size: number; isTarget: boolean; isPinching: React.MutableRefObject<boolean> }) => React.ReactElement | null;
@@ -346,7 +346,7 @@ export function ZoomGrid<T>({
                     disableAutoScroll={!isActive}
                     onEndReached={isActive ? onEndReached : undefined}
                     onScroll={isActive ? (e: any) => activeScrollOffset.value = e.nativeEvent.contentOffset.y : undefined}
-                    renderItem={({ item, index, size, isTarget }) => renderItem({
+                    renderItem={({ item, index, size, isTarget }: { item: T; index: number; size: number; isTarget: boolean }) => renderItem({
                         item,
                         index,
                         size,

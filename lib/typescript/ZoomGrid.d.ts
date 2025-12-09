@@ -1,8 +1,8 @@
 import React from 'react';
 import { ViewStyle } from 'react-native';
-import { FlashListProps } from '@shopify/flash-list';
+import { LegendListProps } from '@legendapp/list';
 export declare const DEBUG = false;
-export interface ZoomGridProps<T> extends Omit<FlashListProps<T>, 'renderItem'> {
+export interface ZoomGridProps<T> extends Omit<LegendListProps<T>, 'renderItem'> {
     zoomLevels?: number[];
     initialNumColumns?: number;
     renderItem: (props: {
